@@ -1,0 +1,46 @@
+// File: App.scss
+// This file contains all styles related to the site/application.
+@import './assets/scss/utilities/fonts';
+@import './assets/scss/utilities/mixins';
+@import './assets/scss/utilities/variables';
+@import './assets/scss/utilities/base';
+/* ----------------------------------- */
+@import './layouts/Sidebar/sidebar';
+@import './layouts/Header/search';
+@import './pages/pages';
+@import './components/components';
+
+/* STYLES GO HERE */
+// html * {
+//   // font-family: Tajawal !important;
+// }
+body {
+  background: $darker_white !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-width: 4px;
+  scrollbar-color: #2897f3 #e5edf7;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 4px;
+  z-index: 120;
+}
+
+*::-webkit-scrollbar-track {
+  background: #e5edf7;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #2897f3;
+  border-radius: 0;
+  border: 0px solid #e5edf7;
+}

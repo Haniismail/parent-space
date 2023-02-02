@@ -1,0 +1,15 @@
+.history-table-monnaie {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.HistoryTable {
+  margin: 15px;
+  margin-bottom: 25px;
+
+  border-radius: 8px;
+  & td,
+  th {
+    border: 1px solid #ccc;
+  }
+}

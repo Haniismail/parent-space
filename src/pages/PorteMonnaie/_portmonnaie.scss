@@ -1,0 +1,100 @@
+.porte-monnaie-card {
+  margin-top: 42px;
+  box-shadow: 0px 2px 4px rgba(179, 208, 232, 0.6);
+  border-radius: 8px;
+}
+.port-monnaie {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 22px;
+}
+.porte-title {
+  margin-left: 15px;
+}
+.porte-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px;
+}
+
+.header-monnaie {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #2ba7df;
+  width: 500px;
+  height: 103px;
+  border-radius: 5px;
+}
+.body-monnaie {
+  margin: 15px;
+}
+.banque-monnaie {
+  color: #256a8d;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+.account-monnaie {
+  color: #256a8d;
+  font-weight: 800;
+}
+.takiacademy {
+  color: grey;
+  font-weight: 400;
+}
+.rib {
+  color: #256a8d;
+  font-weight: 800;
+}
+.number {
+  color: grey;
+  font-weight: 400;
+}
+.monnaie-solde {
+  color: #256a8d;
+  font-weight: 800;
+}
+.line-monnaie {
+  border: 1px solid #ccc;
+  width: 80px;
+  margin-top: 10px;
+  margin-left: 85px;
+}
+.monnaie-point {
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: large;
+}
+.monnaie-button {
+  width: 210px;
+  height: 73px;
+  background-color: #e8eafc;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  /* margin: 140px; */
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: 159px;
+  cursor: pointer;
+}
+.image-monnaie {
+  width: 50px;
+  height: 60px;
+  margin-left: 10px;
+}
+.tarnsfer-monnaie {
+  font-weight: 1000;
+  margin-left: 20px;
+}
+
+.display {
+  margin-left: 145px;
+  margin-top: 12px;
+}
+
+.soldPoints {
+  text-align: center;
+}

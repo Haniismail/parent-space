@@ -1,0 +1,93 @@
+.CivilStateContainer {
+  margin: 15px;
+  margin-left: 0px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: #2ba7df;
+}
+.questionary {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.ChildInformation {
+  color: #a5acbe;
+  font-size: 1.25em;
+}
+.ChildInformationEntered {
+  color: black;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.Civil-state-status {
+  color: #2ba7df;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+.CivilStateUnderline {
+  height: 1px;
+  width: 97%;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 8px / 2 - 2px);
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #e6e6ee;
+  margin-bottom: 10px;
+}
+
+.Civil-State-download-bar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.Civil-state-fichier {
+  width: 300px;
+  height: 31px;
+  border: 1px solid white;
+  background-color: #dff1f5;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.Civil-state-fichiers {
+  font-weight: bold;
+  font-size: large;
+  width: 50%;
+}
+.Civil-state-downloadButton {
+  width: 200px;
+  height: 32px;
+  background-color: #2ba7df;
+  border-radius: 5px;
+  font-size: large;
+  color: white;
+  border-color: transparent;
+}
+
+.Civil-questionary {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.Civil-state-title {
+  margin-left: 15px;
+}
+.debase {
+  margin-left: 5px;
+}
+.detailenfantajoute {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-left: 25px;
+}
+.telechargerdetailenfant {
+  margin-top: 3px;
+}

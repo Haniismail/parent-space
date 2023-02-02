@@ -1,0 +1,43 @@
+.image-matiere {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+.matiere-card {
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 97%;
+}
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+.body-container {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.matiere-name {
+  color: #256a8d;
+  font-size: large;
+}
+.matiere-progression {
+  color: #256a8d;
+  font-weight: bold;
+  font-size: large;
+}
+.Progression-matieres {
+  height: 6px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 8px / 2 - 2px);
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #e3e3e4;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}

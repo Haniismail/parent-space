@@ -1,0 +1,110 @@
+.menu-dropdown {
+  & > button > span {
+    & > .MuiAvatar-root {
+      margin-right: 8px;
+    }
+    & > .texts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      text-transform: capitalize;
+      @include mq(960px, max) {
+        display: none;
+      }
+      & > .title {
+        font-size: 14px;
+        line-height: 20px;
+        color: $blue;
+        font-weight: 500;
+      }
+      & > .subtitle {
+        font-size: 12px;
+        line-height: 12px;
+        color: $grey;
+        font-weight: 400;
+        & > sup {
+          text-transform: lowercase;
+        }
+      }
+    }
+    & > .icon-holder {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $blue;
+      margin-left: 4px;
+    }
+  }
+  & > .MuiButtonBase-root {
+    min-width: max-content !important;
+  }
+  .message-icon {
+    opacity: 1;
+    filter: invert(31%) sepia(72%) saturate(567%) hue-rotate(153deg) brightness(93%) contrast(88%);
+  }
+  .nb-message {
+    border-radius: 50%;
+    border: 2px solid var(--unnamed-color-ffffff);
+    background: #e94a14 0% 0% no-repeat padding-box;
+    border: 2px solid #ffffff;
+    opacity: 1;
+    text-align: center;
+  }
+  .menu-item-title {
+    color: #2ba7df;
+    font-size: 16px;
+    font-weight: bold;
+    top: 79px;
+    left: 860px;
+    font-family: tajawal;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    opacity: 1;
+  }
+  .message-title {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    top: 134px;
+    left: 897px;
+    font-family: tajawal;
+    padding-left: 10px;
+    opacity: 1;
+  }
+  .message-body {
+    top: 159px;
+    left: 897px;
+    font-size: 14px;
+    font-family: tajawal;
+    color: #7c8494;
+    opacity: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    padding-left: 35px;
+  }
+  .message-time {
+    color: #b7becd;
+    top: 159px;
+    left: 1043px;
+    font-size: 14px;
+    font-family: tajawal;
+    padding-left: 80px;
+    text-align: left;
+  }
+  .group-message {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .message-header {
+    display: flex;
+    flex-direction: row;
+  }
+  .message-icon {
+    color: #ec5542;
+  }
+}

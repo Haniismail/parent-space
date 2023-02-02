@@ -1,0 +1,152 @@
+.table {
+  margin-top: 20px;
+}
+.tablerow {
+  background-color: #ebebf3;
+  margin: 20px;
+  color: #ebebf3;
+}
+.table_container {
+  width: 97.5%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.header {
+  color: #a2a2a7;
+  border: 1px solid #ccc;
+}
+
+.icon {
+  text-align: end;
+}
+.list {
+  display: flex;
+}
+.piece_joint_en_direct {
+  margin-left: 576px;
+  margin-top: 10px;
+  font-weight: 500;
+
+  color: #a2a2a7;
+  size: 16px;
+}
+.piecejoint {
+  margin-bottom: 10px;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  font-weight: 500;
+
+  gap: 10px;
+  color: #a2a2a7;
+  size: 16px;
+}
+.niveaux {
+  display: flex;
+  gap: 15px;
+}
+.niveauxx {
+  display: flex;
+  gap: 20px;
+}
+.niveau {
+  border-radius: 10px;
+  color: red;
+  border: 2px solid red;
+  opacity: 0.62;
+  padding: 1px 12px;
+}
+.telecharger_en_direct {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.fichier_en_direct {
+  width: 300px;
+  height: 31px;
+  border: 1px solid white;
+  background-color: #dff1f5;
+
+  color: black;
+}
+.fichiers_en_direct {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.en-direct-button {
+  display: flex;
+  flex-direction: row;
+
+  width: 240px;
+  height: 32px;
+  background-color: #2ba7df;
+
+  border-radius: 5px;
+  color: white;
+  border-color: transparent;
+}
+.download_icon_en_direct {
+  margin-left: 27px;
+  margin-top: 5px;
+}
+.download {
+  margin-top: 5px;
+  margin-left: 20px;
+
+  font-size: larger;
+}
+.bold {
+  font-weight: bold;
+}
+.row {
+  & td,
+  tr,
+  th {
+    padding: 0.3em;
+
+    margin: 0;
+    border: 1px solid #ccc;
+  }
+}
+.header-en-direct {
+  & th {
+    padding: 0.3em;
+  }
+}
+.view {
+  margin-left: 20px;
+}
+.tous {
+  display: flex;
+  justify-content: space-between;
+}
+.downicon {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 20px;
+  color: #a2a2a7;
+  size: 100px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+.KeyboardArrowDownIcon {
+  margin-top: -2px;
+}
+.en-direct-header {
+  & th {
+    height: 10px;
+    padding: 0.3em;
+  }
+}
+.absentenfant {
+  color: red;
+}
+.FormatListBulletedTwoTone {
+  color: black;
+  font-size: larger;
+}

@@ -1,0 +1,35 @@
+.view-title {
+  color: $blue;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  @include mq(780px, max) {
+    font-size: 24px;
+  }
+  &.orange {
+    color: $orange;
+  }
+  &.widh-breadcrumbs {
+    margin-bottom: 0 !important;
+  }
+}
+
+.MuiBreadcrumbs-root {
+  margin-bottom: 20px !important;
+  & > .MuiBreadcrumbs-ol > .MuiBreadcrumbs-li {
+    & > a {
+      color: #9a9aab;
+      font-size: 18px;
+      font-weight: 500;
+      transition: all 300ms ease;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    & > p {
+      color: #b8b8c9;
+      font-size: 18px;
+    }
+  }
+}

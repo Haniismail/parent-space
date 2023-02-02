@@ -1,0 +1,148 @@
+.Progression-Container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-top: 20px;
+  box-shadow: #2ba7df;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.Progression-matiere {
+  justify-content: space-between;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.ProgressionUnderline {
+  height: 1px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 8px / 2 - 2px);
+  margin-left: 20px;
+  margin-right: 20px;
+
+  margin-bottom: 20px;
+
+  background: #e6e6ee;
+}
+.Progression-matiere-title {
+  margin-top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #18698d;
+}
+.Progression-matiere-image {
+  background-color: #dedede;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 38px;
+  height: 38px;
+
+  background: #dedede;
+  border-radius: 8px;
+}
+.Progression-matiere-image-and-text-holder {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.Progression-percentage {
+  color: #4a3c98;
+  width: 40px;
+  height: 19px;
+  left: 395px;
+  top: 9.5px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.Progression-main-title {
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+.Voir-plus {
+  margin-right: 20px;
+
+  margin-top: 15px;
+
+  display: flex;
+
+  flex-direction: row;
+
+  gap: 10px;
+}
+
+.voir {
+  color: #a2a2a7;
+
+  font-weight: 600;
+}
+
+.forward {
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+.Progression-view-more {
+  justify-content: center;
+  text-align: center;
+}
+.Progression-progressBar {
+  height: 8px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 8px / 2 - 2px);
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #fe726e;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.Progression-progressBar50 {
+  height: 8px;
+  left: 0%;
+
+  background: #e3e3e4;
+  top: calc(50% - 8px / 2 - 2px);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-size: 300% 100%;
+}
+.Progression-progressBar0 {
+  height: 8px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 8px / 2 - 2px);
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #e3e3e4;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.card_exam {
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin-right: 10px;
+  box-shadow: #2ba7df;
+  margin-top: 15px;
+}
+.ExamTable {
+  margin: 15px;
+  margin-bottom: 25px;
+}
+.rightarrow {
+  margin-top: 4px;
+}

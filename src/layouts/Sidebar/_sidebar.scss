@@ -1,0 +1,156 @@
+.sidebar {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  & > .header {
+    background-color: rgba(13, 14, 15, 0.3);
+    text-align: center;
+    padding: 12px 0;
+    &::before {
+      content: '';
+      background: url('../../assets/img/header-mask.svg') no-repeat;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      z-index: -1;
+      position: absolute;
+    }
+  }
+  & > .content {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 64px);
+    overflow: auto;
+  }
+  & > .content > .container {
+    padding: 20px;
+    width: 100%;
+    flex-grow: 1;
+    & > ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 0;
+      & > li {
+        margin: 2px 0;
+        width: 100%;
+        & > a,
+        & > div {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          padding: 8px;
+          cursor: pointer;
+          & > .title {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            & > img {
+              width: 20px;
+              height: 20px;
+            }
+            & > span {
+              margin-left: 18px;
+              color: $pure_white;
+              font-weight: 500;
+              font-size: 16px;
+              text-decoration: none;
+            }
+          }
+          & > .MuiChip-root {
+            background: transparent !important;
+            color: #ffffffc2 !important;
+            font-size: 14px !important;
+            &.MuiChip-colorSecondary {
+              background: #e94a14 !important;
+              color: white !important;
+            }
+          }
+
+          &.active {
+            background: $darker_white;
+            border-radius: 8px;
+            & > .title {
+              & > span {
+                color: $darker_blue;
+              }
+              & > img {
+                filter: invert(60%) sepia(30%) saturate(904%) hue-rotate(170deg) brightness(64%)
+                  contrast(100%);
+              }
+            }
+            & > .MuiChip-root {
+              color: #18699cc7 !important;
+              &.MuiChip-colorSecondary {
+                background: #e94a14 !important;
+                color: white !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  & > .content > .footer {
+    position: relative;
+    // bottom: 0;
+    // left: 0;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    & > span {
+      color: $pure_white;
+    }
+    & > ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      & > li {
+        padding: 0 6px;
+        & > a > img {
+          height: 24px;
+          filter: invert(100%);
+        }
+      }
+    }
+    & > .contacts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4px;
+      & > .contact-phone {
+        color: #2490f1;
+        font-weight: bold;
+        opacity: 1;
+        background: white;
+        padding: 2px 12px;
+        border-radius: 20px;
+        width: fit-content;
+        margin-bottom: 12px;
+        user-select: none;
+      }
+    }
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -114px;
+    left: -146px;
+    width: 530px;
+    height: 533px;
+    transform: matrix(0.91, -0.42, 0.42, 0.91, 0, 0);
+    box-shadow: 0 8px 30px rgba(30, 135, 240, 0.2);
+    opacity: 0.5;
+    border-radius: 50%;
+    z-index: -9;
+    background: transparent linear-gradient(180deg, #40bcf9, #1e87f0) 0 0 no-repeat padding-box;
+  }
+}

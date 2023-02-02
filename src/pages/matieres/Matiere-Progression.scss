@@ -1,0 +1,206 @@
+.CoursMatieres {
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border: 2px solid #19b5fe;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.TeacherAndVideos {
+  display: flex;
+  justify-content: space-between;
+}
+.ChapitreProgression {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #4a3c98;
+}
+
+.CoursNumber {
+  color: #ed5454;
+  margin-right: 15px;
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-left: 30px;
+  margin: 30px;
+}
+.Theme {
+  color: #18698d;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.MatieresTeacher {
+  color: #a5acbe;
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-left: 105px;
+}
+
+.Cours-Examens-Enregistrements {
+  color: #18698d;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 25px;
+}
+.Cours-progressBar0Percent {
+  height: 8px;
+  width: 90%;
+  margin-left: 100px;
+  margin-top: 20px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 8px / 2 - 2px);
+
+  margin-right: 20px;
+  background: #e3e3e4;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.SideMatieres {
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.ChapitreProgressionPercentage {
+  margin-top: 6px;
+}
+.Matiere-image {
+  margin: 10px;
+  height: 80px;
+  width: 80px;
+}
+.SIDEBARTheme {
+  color: #18698d;
+  font-size: 2em;
+
+  margin-top: 35px;
+}
+.image-title {
+  display: flex;
+  flex-direction: row;
+}
+.SideBarProgression {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #4a3c98;
+}
+
+.SideBar-progressBar0Percent {
+  height: 8px;
+  width: 93%;
+  margin-left: 20px;
+  margin-top: 20px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 8px / 2 - 2px);
+
+  margin-right: 20px;
+  background: #e3e3e4;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.ThemeInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.ChampterNUmber {
+  color: #a5acbe;
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Chapterinformations {
+  color: #18698d;
+  font-size: 1em;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.autres-matieres {
+  margin-left: 20px;
+  font-size: large;
+}
+.smallSizedImage {
+  width: 35px;
+  height: 35px;
+}
+.smallSizedTitle {
+  color: #18698d;
+  font-size: 1em;
+  margin-top: 8px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.smallSizedPercentage {
+  font-weight: bold;
+  font-size: 1em;
+  color: #4a3c98;
+}
+
+.imageandtitlesmallsize {
+  display: flex;
+  flex-direction: row;
+}
+.sidebarsmallsizelefthandside {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.Mini-progressBar0Percent {
+  height: 8px;
+  width: 60%;
+  margin-left: 20px;
+  margin-top: 20px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 8px / 2 - 2px);
+
+  margin-right: 20px;
+  background: #e3e3e4;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.miniProgression {
+  height: 1px;
+  border: 1px solid #e6e6ee;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 8px / 2 - 2px);
+  margin-left: 20px;
+  margin-right: 20px;
+
+  margin-bottom: 20px;
+
+  background: #e6e6ee;
+}
+
+.Mini-voir-plus {
+  margin-bottom: 15px;
+  display: flex;
+
+  justify-content: center;
+
+  gap: 10px;
+}
+.mini-voir {
+  color: #a2a2a7;
+
+  font-weight: 600;
+  cursor: pointer;
+}

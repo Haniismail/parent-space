@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="notranslate" translate="no">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet"href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Taki Academy website." />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <meta name="google" content="notranslate" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <title>Takiacademy</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- <script type="text/javascript">
+      window.$crisp=[];window.CRISP_WEBSITE_ID="cda1c08a-5a8b-4a4c-b7d3-254c4dd84aca";
+      (function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";
+      s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+    </script> -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <script src="https://dev.vdocipher.com/playerAssets/1.6.10/vdo.js"></script>
+    <script>
+      const body = document.body;
+      const scrollUp = 'scroll-up';
+      const scrollDown = 'scroll-down';
+      let lastScroll = 0;
+      // window.addEventListener('hashchange', () => {
+      //   console.log('test');
+      // });
+      window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+        if (currentScroll == 0) {
+          body.classList.remove(scrollUp);
+          return;
+        }
+        if (currentScroll > lastScroll && !body.classList.contains(scrollDown)) {
+          // down
+          body.classList.remove(scrollUp);
+          body.classList.add(scrollDown);
+        } else if (currentScroll < lastScroll && body.classList.contains(scrollDown)) {
+          // up
+          body.classList.remove(scrollDown);
+          body.classList.add(scrollUp);
+        }
+        lastScroll = currentScroll;
+      });
+    </script>
+  </body>
+</html>

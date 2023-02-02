@@ -1,0 +1,302 @@
+.item1 {
+  width: 455px;
+  height: 130px;
+  margin-left: 20px;
+  text-align: start;
+}
+.item2 {
+  width: 455px;
+  height: 130px;
+  margin-left: 20px;
+}
+
+.item3 {
+  width: 455px;
+  height: 130px;
+  margin-left: 20px;
+}
+
+.item4 {
+  width: 455px;
+  height: 130px;
+  margin-left: 20px;
+}
+.Examens {
+  box-shadow: 0px 2px 4px rgba(179, 208, 232, 0.6);
+}
+.container2 {
+  border-radius: 164px;
+}
+.span {
+  text-align: start;
+}
+
+.Card {
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(179, 208, 232, 0.6);
+  border-radius: 8px;
+  height: 360px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 10px;
+
+  background-color: white;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #e6e6ee;
+  border-width: thin;
+}
+.detailbox {
+  margin-left: 20px;
+  width: 1370px;
+  background-color: white;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #e6e6ee;
+  border-width: thin;
+}
+.box2 {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #e6e6ee;
+  border-width: thin;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.examen {
+  margin-left: 12px;
+}
+
+.button {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 14px;
+  position: static;
+  width: 83px;
+  height: 22px;
+  left: 10px;
+  top: 10px;
+
+  background: #2ba7df;
+  border-radius: 4px;
+}
+.examTitle {
+  position: static;
+  height: 19px;
+  left: 0px;
+  top: 0px;
+  margin-left: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: inline-block;
+}
+
+.professorTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 10px;
+  color: #a2a2a7;
+}
+.dateTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 10px;
+  color: #c20000;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.detailsTitle {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
+  position: absolut;
+  right: 0;
+  // margin-left: 590px;
+  margin-top: 5px;
+  width: 153px;
+  height: 35px;
+  margin-bottom: 10px;
+  background: #2ba7df;
+  border-radius: 4px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.75px;
+
+  color: #fcfcfc;
+  cursor: pointer;
+}
+.detailbutton {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 14px;
+  position: static;
+  width: 83px;
+  height: 22px;
+  left: 10px;
+  top: 10px;
+
+  background: #2ba7df;
+  border-radius: 4px;
+}
+.detailexamTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.detailTitles {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.detailprofessorTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #a2a2a7;
+}
+.detaildateTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  margin-bottom: 10px;
+  color: #c20000;
+}
+
+.ExamHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.select {
+  width: 100px;
+  height: 20px;
+  margin-top: 15px;
+  border-color: #2ba7df;
+}
+
+.fichier {
+  width: 1080px;
+  height: 31px;
+  border: 1px solid white;
+  background-color: #dff1f5;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.fichiers {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.downloadButton {
+  width: 270px;
+  height: 32px;
+  background-color: #2ba7df;
+  border-radius: 5px;
+  color: white;
+  border-color: transparent;
+}
+
+.download-bar {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.mainHeaders {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tous {
+  display: flex;
+  justify-content: space-around;
+}
+
+.downicon {
+  display: flex;
+
+  flex-direction: row;
+
+  margin-top: 20px;
+
+  color: #a2a2a7;
+
+  size: 100px;
+
+  font-weight: bold;
+
+  margin-right: 15px;
+}
+
+.KeyboardArrowDownIcon {
+  margin-top: -2px;
+}
+.examen-card {
+  margin-top: 20px;
+}
+.buttondownload {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 30px;
+}
+.examtelecharger {
+  font-size: larger;
+}
